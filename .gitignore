@@ -3,4 +3,3 @@ __pycache__/
 
 # Training artifacts and model checkpoints
 finbert_results/
-best_finbert_model/model.safetensors

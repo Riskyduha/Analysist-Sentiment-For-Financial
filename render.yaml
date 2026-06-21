@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: finbert-sentiment-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn --workers 1 --timeout 120 wsgi:app

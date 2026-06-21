@@ -1,0 +1,7 @@
+Flask>=3.0,<4.0
+Flask-Cors>=4.0,<5.0
+gunicorn>=23.0,<24.0
+matplotlib>=3.8,<4.0
+safetensors>=0.4,<1.0
+torch>=2.4,<3.0
+transformers>=4.45,<5.0
